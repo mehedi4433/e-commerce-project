@@ -1,0 +1,276 @@
+*{
+    overflow-x: hidden;
+}
+
+body{
+    font-family: "Playfair Display", serif;
+}
+/* hero section */
+.hero-section{
+    height: 800px;
+    background-color: #E3E3E3;
+    border-radius: 0 0 50px 50px;
+}
+.header{
+    height: 90px;
+    overflow-y: hidden;
+    padding: 25px 150px;
+}
+
+.header nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.header nav img{
+    cursor: pointer;
+}
+
+.header nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.header nav ul li{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 20px;
+    cursor: pointer;
+    color: #07484A;
+}
+
+.header nav ul li:hover{
+    font-weight: bold;
+}
+
+
+.icons a{
+    font-size: 20px;
+    padding: 0 15px;
+    color: #07484A;
+}
+
+.content-01{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 150px;
+}
+
+.text-01{
+    width: 600px;
+}
+
+.text-01 h1{
+    font-size: 64px;
+    line-height: 74px;
+    color: #07484A;
+    font-weight: bold;
+}
+
+.text-01 p{
+    font-size: 24px;
+    color: #07484A;
+}
+
+.text-01 button{
+    width: 230px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    color: white;
+    background-color: #70908B;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* category section */
+.category{
+    height: 1000px;
+    background-color: #FDFBF8;
+    padding: 100px 150px;
+    overflow-y: hidden;
+}
+
+.category h1{
+    font-size: 64px;
+    line-height: 74px;
+    color: #07484A;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main-block{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.side-searchber input{
+    border: 0;
+    background-color: #F0F0F0;
+    outline: none;
+    padding: 20px;
+    width: 350px;
+    color: #2C2C2C;
+    font-size: 16px;
+}
+
+.side-searchber ul{
+    list-style: none;
+    margin: 20px 0 20px -20px;
+}
+.side-searchber ul li{
+    padding: 25px 0;
+    font-size: 24px;
+    color: #07484A;
+    transition: 0.5s;
+}
+
+.side-searchber ul li:hover{
+    font-weight: bold; 
+}
+
+.side-searchber button{
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    color: white;
+    background-color: #70908B;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 265px;
+}
+
+.block-01 img{
+    padding: 0 15px 15px 15px;
+}
+
+
+.block-02 img{
+    padding: 15px 15px;
+}
+.block-03 img{
+    padding: 15px 15px 0  15px;
+}
+.products{
+    background-image: url('assets/images/categoriy/chair.png');
+    height: 850px;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    padding: 100px 150px;
+}
+
+.products h1{
+    font-size: 64px;
+    line-height: 74px;
+    color: #07484A;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cards{
+    margin: 50px 0 0 175px;
+}
+
+.card-01{
+    height: 500px;
+    width: 350px;
+    background-color: #CAF3E5;
+    padding: 80px 0 0 30px;
+    overflow-y: hidden;
+    border-radius: 10px;
+}
+
+.card-01 img{
+    margin-left: 50px;
+}
+
+.card-01 h4{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #70908B;
+}
+
+.card-01 p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #70908B;
+}
+
+.card-02{
+    height: 500px;
+    width: 350px;
+    background-color: #E0EFF6;
+    padding: 80px 0 0 30px;
+    overflow-y: hidden;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.card-02 img{
+    margin-left: 30px;
+}
+
+.card-02 h4{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #70908B;
+}
+
+.card-02 p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #70908B;
+}
+.card-03{
+    height: 500px;
+    width: 350px;
+    background-color: #EEEBFF;
+    padding: 80px 0 0 30px;
+    overflow-y: hidden;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.card-03 img{
+    margin-left: 15px;
+}
+
+.card-03 h4{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #70908B;
+}
+
+.card-03 p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #70908B;
+}
+
+.products button{
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    color: white;
+    background-color: #70908B;
+    border-radius: 5px;
+    margin: 70px 0 0 660px;
+    cursor: pointer;
+    width: 265px;
+}
